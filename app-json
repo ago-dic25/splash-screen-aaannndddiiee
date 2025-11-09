@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "contador-de-pasos",
+    "slug": "contador-de-pasos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-v2.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon_v2.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#cc007e"
+        }
+      ],
+      [
+       
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true,
+          "granularPermissions": [
+            "audio",
+            "photo"
+          ]
+        }
+      ],
+      "expo-router"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon_v2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#cc007e"
+    },
+    "ios": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-v2.png",
+        "backgroundColor": "#cc007e"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-v2.png",
+        "backgroundColor": "#cc007e"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+ 
